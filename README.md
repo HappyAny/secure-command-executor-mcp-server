@@ -1,6 +1,6 @@
-# Secure Command Executor
+# Secure Command Executor MCP Server
 
-A robust command execution service with daily log rotation, designed to securely manage and execute system commands with safety checks and logging. And this README.md is written by DeepSeek V3.
+A robust command execution MCP service with daily log rotation, designed to securely manage and execute system commands with safety checks and logging. And this README.md is written by DeepSeek V3.
 
 ## Features
 
@@ -34,6 +34,25 @@ A robust command execution service with daily log rotation, designed to securely
 ### Starting the Service
 ```bash
 node index.js --file commands.json --logs logs --port 3000
+```
+
+### MCP Setting
+```json
+{
+    "mcpServers": {
+        "cmd-exec": {
+          "command": "node",
+          "args": [
+            "D:\\Codes\\Scripts\\MCP\\cmd-exec-mcp\\index.js",
+            "--file",
+            "D:\\Codes\\Scripts\\MCP\\cmd-exec-mcp\\commands.json",
+            "--logs",
+            "D:\\Codes\\Scripts\\MCP\\cmd-exec-mcp\\logs"
+          ]
+        }
+    }
+}
+
 ```
 
 ### Commands File
