@@ -47,7 +47,7 @@ node index.js --file commands.json --logs logs --port 3000
             "--file",
             "path_to_file/commands.json",
             "--logs",
-            "path_to_dict/\\logs"
+            "path_to_dict/logs"
           ]
         }
     }
