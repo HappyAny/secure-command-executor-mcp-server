@@ -20,7 +20,9 @@ A robust command execution service with daily log rotation, designed to securely
 
 2. Install dependencies:
    ```bash
-   npm install
+   npm install minimist
+   npm install @modelcontextprotocol/sdk
+   npm install zod
    ```
 
 3. Configure the service:
