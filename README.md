@@ -14,7 +14,7 @@ A robust command execution service with daily log rotation, designed to securely
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/HappyAny/secure-command-executor.git
+   git clone https://github.com/HappyAny/secure-command-executor-mcp-server.git
    cd secure-command-executor
    ```
 
