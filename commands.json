@@ -1,0 +1,20 @@
+[
+  {
+    "name": "dir",
+    "description": "List directory contents",
+    "example": "dir /w",
+    "dangerous": false,
+    "enabled": true,
+    "confirmationPrompt": "",
+    "consequences": ""
+  },
+  {
+    "name": "format",
+    "description": "Format disk drive",
+    "example": "format C:",
+    "dangerous": true,
+    "enabled": false,
+    "confirmationPrompt": "This will PERMANENTLY erase all data. Confirm?",
+    "consequences": "Permanent data loss"
+  }
+]
