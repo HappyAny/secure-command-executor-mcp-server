@@ -43,11 +43,11 @@ node index.js --file commands.json --logs logs --port 3000
         "cmd-exec": {
           "command": "node",
           "args": [
-            "D:\\Codes\\Scripts\\MCP\\cmd-exec-mcp\\index.js",
+            "path_to_file/index.js",
             "--file",
-            "D:\\Codes\\Scripts\\MCP\\cmd-exec-mcp\\commands.json",
+            "path_to_file/commands.json",
             "--logs",
-            "D:\\Codes\\Scripts\\MCP\\cmd-exec-mcp\\logs"
+            "path_to_dict/\\logs"
           ]
         }
     }
